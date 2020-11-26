@@ -2,6 +2,7 @@
 applications:
   - name: h2yo-cloud-client
     memory: 64M
+    command: npm build
     instances: 1
     random-route: true
     disk_quota: 1024M
